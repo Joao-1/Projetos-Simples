@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <table>
+        <td>
+            <input  type="text"  id="1" />
+        </td>
+
+        <tr>
+            <td>
+                <button class="button" onclick="apagarTudo()">C</button>
+                <button class="button" onclick="apagaUm()">></button>
+                <button class="button" onclick="sinal(4)" >/</button>
+                <button class="button" onclick="sinal(3)" >*</button>
+            </td>
+        </tr>
+
+            <tr>
+                <td>
+                    <button class='button' onclick="addNum(`7`)">7</button>
+                    <button class='button' onclick="addNum(`8`)">8</button>
+                    <button class='button' onclick="addNum(`9`)">9</button>
+                    <button class='button' onclick="sinal(1)" >+</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                        <button class='button' onclick="addNum(`4`)" >4</button>
+                        <button class='button' onclick="addNum(`5`)" >5</button>
+                        <button class='button' onclick="addNum(`6`)" >6</button>
+                        <button class='button' onclick="sinal(2)" >-</button>
+                </td>
+            </tr>
+
+                <tr>
+                    <td>
+                        <button class='button' onclick="addNum(`0`)">0</button>
+                        <button class='button' onclick="addNum(`1`)">1</button>
+                        <button class='button' onclick="addNum(`2`)">2</button>
+                        <button class='button' onclick="addNum(`3`)">3</button>
+                        <button class='button' onclick="igual()">=</button>
+                    </td>
+                </tr>
+
+    </table>
+
+    <script src="codigo.js"></script>
+
+</body>
+</html>

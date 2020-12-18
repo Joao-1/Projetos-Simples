@@ -1,0 +1,35 @@
+{
+  "name": "appideas",
+  "version": "1.0.0",
+  "description": "Projetos para desenvolver minhas técnicas em programação.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joao-1/AppIdeas.git"
+  },
+  "keywords": [
+    "AppIdeas",
+    "projetos",
+    "simples",
+    "projetos",
+    "intermediarios",
+    "projetos",
+    "avançados"
+  ],
+  "author": "João Vitor Martins Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joao-1/AppIdeas/issues"
+  },
+  "homepage": "https://github.com/Joao-1/AppIdeas#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
